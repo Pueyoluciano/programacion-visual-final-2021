@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+}
+
+header {
+    padding: 25px;
+    background-color: tomato;
+}
+
+main {
+    background-color: rgb(255, 166, 151);
+}
+
+section {
+    min-height: 100vh;
+}
+
+section h2 {
+    background-color: rgba(0,0,0,.25);
+    padding: 25px;
+    text-align: center;
+}
+
+#Productos {
+    background-color: yellowgreen;
+    padding: 25px;
+    height: 100%;
+}
+
+#Productos article {
+    border-radius: 15px;
+    background-color: rgba(0,0,0,.25);
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Productos article h3 {
+    text-align: center;
+}
+
+#Productos article .datos{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#TotalProductos, #ProductoMasCaro, #ProductoMasCaroCosto, #CostoPromedio {
+    font-size: 4em;
+    padding: 25px;
+
+    text-shadow: 0 0 5px black;
+}
+
+#VerReporte {
+    padding: 25px;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(to bottom, yellowgreen, limegreen);
+    color: white;
+
+    font-size: 1.2em;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.25);
+
+    transition: .2s all;
+}
+
+#Acciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#VerReporte:hover {
+    background-image: linear-gradient(to bottom, white, white);
+    color: black;
+}
+
+footer {
+    padding: 15px;
+    background-color: gray;
+
+    text-align: center;
+}

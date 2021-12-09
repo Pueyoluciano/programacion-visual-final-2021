@@ -1,0 +1,39 @@
+{
+    "productos": [
+        {
+            "id": 0,
+            "nombre": "Lavarropas",
+            "precio": 80000
+        },
+        {
+            "id": 1,
+            "nombre": "Microondas",
+            "precio": 50000
+        },
+            {
+            "id": 2,
+            "nombre": "Aire acondicionado",
+            "precio": 100000
+        },
+            {
+            "id": 3,
+            "nombre": "Aspiradora",
+            "precio": 40000
+        },
+            {
+            "id": 4,
+            "nombre": "Procesadora",
+            "precio": 30000
+        },
+            {
+            "id": 5,
+            "nombre": "Heladera",
+            "precio": 75000
+        },
+            {
+            "id": 6,
+            "nombre": "Pava Electrica",
+            "precio": 50000
+        }
+    ]
+}
